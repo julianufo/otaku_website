@@ -1,75 +1,85 @@
-html,body,ul,ol,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,a,img,th,td,form,fieldset,iframe,object,pre,code,legend,blockquote{
-    margin:0;padding:0;border:0;outline:0;
+.building{
+	top: 146px;
+	left: 334px;
+	width: 102px;
 }
 
-ol,ul{
-    list-style:none;
+.road{
+    top: 273px;
+    left: 303px;	
+    width: 503px;	
+    height: 256px;
+	background-image: url(../img/recruit/9.png);	
+    z-index: 30;
 }
 
-:focus{
-    outline:0;
+.road > .car{
+	top: 142px;
+	left: 40px;
+	width: 76px;
+	height: 62px;
+	background-image: url(../img/recruit/7.png);
 }
 
-strong{
-    font-weight:bold;
+.road > .popup{
+	top: 61px;
+	left: -78px;
+	width: 134px;
+	height: 101px;
+	background-image: url(../img/recruit/8.png);
 }
 
-
-form label{
-    cursor:pointer;
+.stick{
+    top: 73px;
+    left: 623px;	
+    width: 25px;	
+    height: 413px;
+	background-image: url(../img/recruit/1.png);	
+    z-index: 20;
 }
 
-input,button,textarea{
-    font-family:inherit;
-    font-size:100%;
+.cehua{
+    top: 73px;
+    left: 526px;	
+    width: 201px;	
+    height: 81px;
+	background-image: url(../img/recruit/策划.png);	
+    z-index: 30;
 }
 
-table{
-    border-collapse:separate;
+.xinzheng{
+    top: 146px;
+    left: 630px;	
+    width: 183px;	
+    height: 94px;
+	background-image: url(../img/recruit/行政.png);	
+    z-index: 30;
 }
 
-caption,th,td{
-    font-weight:normal;
+.meishu{
+    top: 223px;
+    left: 490px;	
+    width: 154px;	
+    height: 80px;
+	background-image: url(../img/recruit/美术.png);	
+    z-index: 30;
 }
 
-h1,h2,h3,h4,h5,h6{
-    font-weight:normal;
-    font-size:100%;
+.chengxu{
+	top: 294px;
+    
+	left: 634px;	
+    width: 182px;	
+    height: 86px;
+	background-image: url(../img/recruit/程序.png);	
+    z-index: 30;
 }
 
-p{
-	word-wrap:break-word;
+.grass1{
+	top: 262px;
+	left: 123px;	
+	width: 269px;
 }
-
-body{	
-	background-color: black;
-	color: white;
+.grass5{
+top: 505px;
 }
-
-#wrapper{
-	overflow: hidden;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width:1004px;
-	height: 618px;	
-	margin-left: -502px;
-	background-image:url(../img/background.png);
-	margin-top: -306px; /* Firefox 3.6 */
-	-webkit-background-size:100%;
-    background-size:100%;
-    background-repeat: no-repeat;
-	-moz-box-shadow:0px 0px 100px black inset;               /* For Firefox3.6+ */
-	-webkit-box-shadow:0px 0px 100px black inset;          /* For Chrome5+, Safari5+ */
-	border-radius: 10px;
-	box-shadow:0px 0px 100px black inset; 
-
-}
-
-.animation_pause{
-    animation-play-state:paused;
-	-moz-animation-play-state:paused; /* Firefox*/
-	-webkit-animation-play-state:paused; /* Safari and Chrome */
-	-o-animation-play-state:paused; /* Opera */
-}
-
