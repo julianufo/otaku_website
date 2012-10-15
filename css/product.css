@@ -8,3 +8,101 @@
 	top: 321px;
 	left: 240px;
 }
+
+.grass5{
+	left: 185px;
+}
+
+.post_wall{
+	overflow: hidden;
+	top: 132px;
+	left: 225px;
+	width: 514px;
+	height: 316px;
+    background-image: url(../img/product/background.png);
+    z-index: 20;
+}
+
+.foot1{
+    top: 424px;
+    left: 315px;
+	width: 52px;
+	height: 57px;
+    background-image: url(../img/product/3.png);
+    z-index: 10;
+}
+
+.foot2{
+    top: 422px;
+    left: 615px;
+	width: 52px;
+	height: 57px;
+    background-image: url(../img/product/4.png);
+    z-index: 10;
+}
+
+.product_common{
+	top: 312px;
+    width: 228px;
+    height: 207px;
+    background-image: url(../img/product/1.png);
+    animation: myfirst 5s;
+    -moz-animation: myfirst 5s; /* Firefox */
+    -webkit-animation: product_frame 2s; /* Safari and Chrome */
+    -o-animation: myfirst 5s; /* Opera */
+
+}
+
+
+.product_common > img{
+	position: absolute;
+	top: 25px;
+	left: 33px;
+}
+
+.product_common > img:hover{
+    cursor: pointer;
+}
+
+.product_common > p{
+    color: black;
+    position: absolute;
+    top: 154px;
+    left: 34px;
+}
+
+.product_left{
+	left: 30px;
+}
+
+.product_right{
+	left: 252px;
+}
+
+@keyframes myfirst
+{
+from {background: red;}
+to {background: yellow;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+from {background: red;}
+to {background: yellow;}
+}
+
+@-webkit-keyframes product_frame /* Safari and Chrome */
+{
+	0% {top:-188px;}
+	5%{top: 65px;}
+	95%{top: 65px;}
+	100% {top:312px;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+from {background: red;}
+to {background: yellow;}
+}
+
+
