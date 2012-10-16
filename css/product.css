@@ -79,16 +79,19 @@
 	left: 252px;
 }
 
-@keyframes myfirst
+@ product_frame /* Safari and Chrome */
 {
-from {background: red;}
-to {background: yellow;}
+	0% {top:-188px;}
+	5%{top: 65px;}
+	95%{top: 65px;}
+	100% {top:312px;}
 }
-
-@-moz-keyframes myfirst /* Firefox */
+@-moz- product_frame /* Safari and Chrome */
 {
-from {background: red;}
-to {background: yellow;}
+	0% {top:-188px;}
+	5%{top: 65px;}
+	95%{top: 65px;}
+	100% {top:312px;}
 }
 
 @-webkit-keyframes product_frame /* Safari and Chrome */
@@ -99,10 +102,10 @@ to {background: yellow;}
 	100% {top:312px;}
 }
 
-@-o-keyframes myfirst /* Opera */
+@-o-keyframes product_frame /* Safari and Chrome */
 {
-from {background: red;}
-to {background: yellow;}
+	0% {top:-188px;}
+	5%{top: 65px;}
+	95%{top: 65px;}
+	100% {top:312px;}
 }
-
-

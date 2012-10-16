@@ -1,75 +1,144 @@
-html,body,ul,ol,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,a,img,th,td,form,fieldset,iframe,object,pre,code,legend,blockquote{
-    margin:0;padding:0;border:0;outline:0;
+.fellow1{
+	top: 98px;
+	left: 184px;
+	width: 155px;
+	height: 110px;
+	background: url(../img/cooperator/2.png);
+	z-index:9;	
+	transform:rotateY(3780deg);
+    -webkit-transform:rotateY(3780deg); /* Safari and Chrome */
+    -moz-transform:rotateY(3780deg); /* Firefox */
+	animation: fellow1_frame 1s;
+    -moz-animation: fellow1_frame 1s; /* Firefox */
+    -webkit-animation: fellow1_frame 1s; /* Safari and Chrome */
+    -o-animation: fellow1_frame 1s; /* Opera */
+
 }
 
-ol,ul{
-    list-style:none;
+.fellow2{
+	top: 95px;
+	left: 306px;
+	width: 207px;
+	height: 87px;
+	background: url(../img/cooperator/1.png);
+	z-index: 9;	
+	-webkit-animation: fellow2_frame 1s; /* Safari and Chrome */
 }
 
-:focus{
-    outline:0;
+.fellow3{
+	top: 186px;
+	left: 189px;
+	width: 153px;
+	height: 115px;
+	background: url(../img/cooperator/4.png);
+	z-index: 9;	
+	-webkit-animation: fellow3_frame 1s; /* Safari and Chrome */
+
 }
 
-strong{
-    font-weight:bold;
-}
-
-
-form label{
-    cursor:pointer;
-}
-
-input,button,textarea{
-    font-family:inherit;
-    font-size:100%;
-}
-
-table{
-    border-collapse:separate;
-}
-
-caption,th,td{
-    font-weight:normal;
-}
-
-h1,h2,h3,h4,h5,h6{
-    font-weight:normal;
-    font-size:100%;
-}
-
-p{
-	word-wrap:break-word;
-}
-
-body{	
-	background-color: black;
-	color: white;
-}
-
-#wrapper{
-	overflow: hidden;
+.element{
+	/*border: solid;*/
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	width:1004px;
-	height: 618px;	
-	margin-left: -502px;
-	background-image:url(../img/background.png);
-	margin-top: -306px; /* Firefox 3.6 */
+	-moz-background-size:100%; /* Firefox 3.6 */
 	-webkit-background-size:100%;
     background-size:100%;
-    background-repeat: no-repeat;
-	-moz-box-shadow:0px 0px 100px black inset;               /* For Firefox3.6+ */
-	-webkit-box-shadow:0px 0px 100px black inset;          /* For Chrome5+, Safari5+ */
-	border-radius: 10px;
-	box-shadow:0px 0px 100px black inset; 
-
+	background-repeat: no-repeat;
 }
 
-.animation_pause{
-    animation-play-state:paused;
-	-moz-animation-play-state:paused; /* Firefox*/
-	-webkit-animation-play-state:paused; /* Safari and Chrome */
-	-o-animation-play-state:paused; /* Opera */
+@ fellow1_frame /* Safari and Chrome */
+{
+	0% {top:-188px;}
+	5%{top: 65px;}
+	95%{top: 65px;}
+	100% {top:312px;}
 }
+@-moz- fellow1_frame /* Safari and Chrome */
+{
+	0% {top:-188px;}
+	5%{top: 65px;}
+	95%{top: 65px;}
+	100% {top:312px;}
+}
+
+@-webkit-keyframes fellow1_frame /* Safari and Chrome */
+{
+	0% {
+		top: -50px;
+		left: -50px;
+		width: 0px;
+		height: 0px;
+        transform:rotateY(180deg);
+		-webkit-transform:rotateY(0deg); /* Safari and Chrome */
+		-moz-transform:rotateY(180deg); /* Firefox */
+
+	}
+
+
+	100% {	
+		top: 98px;
+		left: 184px;
+		width: 155px;
+		height: 110px;
+        transform:rotateY(180deg);
+		-webkit-transform:rotateY(3780deg); /* Safari and Chrome */
+		-moz-transform:rotateY(180deg); /* Firefox */
+
+    }
+}
+
+@-o-keyframes fellow1_frame /* Safari and Chrome */
+{
+	0% {top:-188px;}
+	5%{top: 65px;}
+	95%{top: 65px;}
+	100% {top:312px;}
+}
+
+
+@-webkit-keyframes fellow2_frame /* Safari and Chrome */
+{
+	0% {
+		top: -50px;
+		left: 306px;
+		width: 0px;
+		height: 0px;
+	}
+
+
+	100% {	
+		top: 95px;
+		left: 306px;
+		width: 207px;
+		height: 87px;
+		transform: rotate(30deg);
+		-ms-transform: rotate(30deg); /* IE 9 */
+		-webkit-transform: rotate(3600deg); /* Safari and Chrome */
+		-o-transform: rotate(30deg); /* Opera */
+		-moz-transform: rotate(30deg); /* Firefox */
+    }
+}
+
+@-webkit-keyframes fellow3_frame /* Safari and Chrome */
+{
+	0% {
+		top: 186px;
+		left: -50px;
+		width: 0px;
+		height: 0px;
+	}
+
+
+	100% {	
+		top: 186px;
+		left: 189px;
+		width: 153px;
+		height: 115px;
+		transform: rotate(30deg);
+		-ms-transform: rotate(30deg); /* IE 9 */
+		-webkit-transform: rotateY(3600deg); /* Safari and Chrome */
+		-o-transform: rotate(30deg); /* Opera */
+		-moz-transform: rotate(30deg); /* Firefox */
+    }
+}
+
 
