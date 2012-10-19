@@ -71,11 +71,10 @@ body{
 	-webkit-background-size:100%;
     background-size:100%;
     background-repeat: no-repeat;
+    box-shadow:0px 0px 100px black inset; 
 	-moz-box-shadow:0px 0px 100px black inset;               /* For Firefox3.6+ */
 	-webkit-box-shadow:0px 0px 100px black inset;          /* For Chrome5+, Safari5+ */
 	border-radius: 10px;
-	box-shadow:0px 0px 100px black inset; 
-
 }
 
 
@@ -107,7 +106,6 @@ body{
 	width: 300px;
 	height: 33px;
 	vertical-align: bottom;
-	/*border: 1px solid;*/
 }
 
 .nav a{
@@ -121,6 +119,7 @@ body{
 .nav a:hover{
 	-moz-box-shadow: 0px -3px 5px 2px white; /* Firefox 3.6 and earlier */
 	box-shadow: 0px -3px 5px 2px white; 
+	-webkit-box-shadow: 0px -3px 5px 2px white; 
 
 }
 
@@ -130,4 +129,8 @@ body{
 	-webkit-background-size:100%;
     background-size:100%;
 	background-repeat: no-repeat;
+	-webkit-transform-style:preserve-3d;
+	-webkit-transform-visibility:hidden;
 }
+
+

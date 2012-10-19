@@ -46,10 +46,10 @@
     width: 228px;
     height: 207px;
     background-image: url(../img/product/1.png);
-    animation: myfirst 5s;
-    -moz-animation: myfirst 5s; /* Firefox */
+    animation:  product_frame 2s; 
+    -moz-animation:  product_frame 2s; /* Firefox */
     -webkit-animation: product_frame 2s; /* Safari and Chrome */
-    -o-animation: myfirst 5s; /* Opera */
+    -o-animation:  product_frame 2s;  /* Opera */
 
 }
 
